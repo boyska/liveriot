@@ -1,0 +1,424 @@
+1.1
+applications.menu
+10
+D/home/arch/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/home/arch/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/etc/xdg/menus/applications-merged
+D/home/arch/.config/menus/applications-merged
+F/home/arch/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+
++Applications
+Applicazioni
+Applicazioni
+applications-other
+lxde-menu-applications.directory
+2
++Accessories
+Accessori
+Accessori del desktop
+applications-accessories
+lxde-utility.directory
+2
+-7zFM.desktop
+7-Zip FM
+
+p7zip
+
+5
+7-Zip FM
+7zFM
+0
+0
+-catfish.desktop
+Catfish
+File search
+catfish
+
+5
+Catfish
+catfish
+2
+0
+-palimpsest.desktop
+Dischi
+Gestisce unità e supporti
+palimpsest
+
+5
+Dischi
+palimpsest
+2
+0
+-exo-terminal-emulator.desktop
+Emulatore di terminale
+Usa la linea di comando
+utilities-terminal
+
+5
+Emulatore di terminale
+exo-open --launch TerminalEmulator
+2
+8
+-pcmanfm.desktop
+File Manager
+Sfoglia il file system e gestisci i file
+system-file-manager
+
+5
+File Manager
+pcmanfm %U
+2
+0
+-galculator.desktop
+Galculator
+Perform simple and scientific calculations
+galculator
+
+5
+Galculator
+galculator
+2
+0
+-exo-file-manager.desktop
+Gestore dei file
+Sfoglia il file system
+system-file-manager
+
+5
+Gestore dei file
+exo-open --launch FileManager %u
+2
+8
+-xfce4-about.desktop
+Informazioni su Xfce
+Informazioni sull'ambiente grafico Xfce
+help-about
+
+5
+Informazioni su Xfce
+xfce4-about
+0
+8
+-leafpad.desktop
+Leafpad
+Semplice editor di testi
+leafpad
+
+5
+Leafpad
+leafpad %f
+2
+0
+-lxterminal.desktop
+LXTerminal
+Usa la riga di comando
+lxterminal
+
+5
+LXTerminal
+lxterminal
+0
+0
+-parcellite.desktop
+Parcellite
+Gestore degli appunti
+parcellite
+
+5
+Parcellite
+parcellite
+0
+0
+-gucharmap.desktop
+Tabella caratteri
+Inserisce caratteri speciali nei documenti
+accessories-character-map
+
+5
+Tabella caratteri
+gucharmap
+2
+0
+
++Multimedia
+Audio e Video
+Menu multimedia
+applications-multimedia
+lxde-audio-video.directory
+2
+-deadbeef.desktop
+DeaDBeeF
+Listen to music
+deadbeef
+
+5
+DeaDBeeF
+deadbeef %F
+0
+0
+-gnome-mplayer.desktop
+GNOME MPlayer
+Play your media
+gnome-mplayer
+
+5
+GNOME MPlayer
+gnome-mplayer %F
+2
+0
+-qv4l2.desktop
+QT V4L2 test Utility
+Allow testing Video4Linux devices
+qv4l2
+
+5
+QT V4L2 test Utility
+qv4l2
+0
+0
+-xfburn.desktop
+Xfburn
+Applicazione di scrittura CD e DVD
+media-cdrom
+
+5
+Xfburn
+xfburn
+2
+0
+
++Internet
+Internet
+Programmi per l'accesso a Internet come web ed email
+applications-internet
+lxde-network.directory
+2
+-exo-web-browser.desktop
+Browser web
+Naviga in rete
+web-browser
+
+5
+Browser web
+exo-open --launch WebBrowser %u
+2
+8
+-bssh.desktop
+Esploratore Avahi per server SSH
+Esplora i server SSH con Zeroconf abilitato
+network-wired
+
+5
+Esploratore Avahi per server SSH
+/usr/bin/bssh
+0
+0
+-bvnc.desktop
+Esploratore Avahi per server VNC
+Esplora i server VNC con Zeroconf abilitato
+network-wired
+
+5
+Esploratore Avahi per server VNC
+/usr/bin/bvnc
+0
+0
+-firefox.desktop
+Firefox
+
+firefox
+
+5
+Firefox
+firefox %u
+2
+0
+-exo-mail-reader.desktop
+Lettore di email
+Leggi le e-mail
+internet-mail
+
+5
+Lettore di email
+exo-open --launch MailReader %u
+2
+8
+
++System
+Strumenti di sistema
+Configurazione e monitoraggio del sistema
+applications-system
+lxde-system-tools.directory
+2
+-batti.desktop
+Batti
+Observe the battery status in the tray
+batti
+
+5
+Batti
+batti
+0
+0
+-dconf-editor.desktop
+dconf Editor
+Directly edit your entire configuration database
+dconf-editor
+
+5
+dconf Editor
+dconf-editor
+2
+0
+-avahi-discover.desktop
+Esploratore Zeroconf Avahi
+Esplora i servizi Zeroconf disponibili sulla propria rete
+network-wired
+
+5
+Esploratore Zeroconf Avahi
+/usr/bin/avahi-discover
+0
+0
+-htop.desktop
+Htop
+Show System Processes
+htop
+
+5
+Htop
+htop
+1
+0
+-hardinfo.desktop
+System Profiler and Benchmark
+
+/usr/share/hardinfo/pixmaps/logo.png
+
+5
+System Profiler and Benchmark
+hardinfo
+2
+0
+
++Office
+Ufficio
+Applicazioni da ufficio
+applications-office
+lxde-office.directory
+2
+-epdfview.desktop
+ePDFViewer
+Lightweight PDF document viewer
+epdfview
+
+5
+ePDFViewer
+epdfview %f
+0
+0
+
+-
++DesktopSettings
+Preferenze
+Preferenze personali
+preferences-desktop
+lxde-settings.directory
+2
+-flash-player-properties.desktop
+Adobe Flash Player
+Preferences for Adobe Flash Player
+flash-player-properties
+
+5
+Adobe Flash Player
+flash-player-properties
+2
+-5
+-exo-preferred-applications.desktop
+Applicazioni preferite
+Applicazioni preferite (browser web, lettore di email ed emulatore di terminale)
+preferences-desktop-default-applications
+
+5
+Applicazioni preferite
+exo-preferred-applications
+2
+8
+-libfm-pref-apps.desktop
+Applicazioni Preferite
+
+preferences-desktop
+
+5
+Applicazioni Preferite
+libfm-pref-apps
+2
+-15
+-arandr.desktop
+ARandR
+
+display
+
+5
+ARandR
+arandr
+2
+0
+-nm-connection-editor.desktop
+Connessioni di rete
+Gestisce e cambia le impostazioni della connessione di rete
+preferences-system-network
+
+5
+Connessioni di rete
+nm-connection-editor
+2
+-5
+-xfce4-notifyd-config.desktop
+Notifiche
+Personalizzazione del modo in cui le notifiche appaiono sullo schermo
+xfce4-notifyd
+
+5
+Notifiche
+xfce4-notifyd-config
+2
+8
+-obconf.desktop
+Openbox Configuration Manager
+Openbox configuration manager
+obconf
+
+5
+Openbox Configuration Manager
+obconf %f
+2
+0
+-lxappearance.desktop
+Personalizza Aspetto e Stile
+Personalizza l'aspetto e lo stile del tuo desktop e delle applicazioni
+preferences-desktop-theme
+
+5
+Personalizza Aspetto e Stile
+lxappearance
+2
+-11
+-lxinput.desktop
+Tastiera e Mouse
+Configura tastiera, mouse, ed altri dispositivi di imput
+input-keyboard
+
+5
+Tastiera e Mouse
+lxinput
+2
+1
+
+
