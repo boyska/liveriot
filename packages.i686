@@ -1,45 +1,121 @@
-aif
-b43-fwcutter
-btrfs-progs
-crda
-darkhttpd
-ddrescue
-dhclient
+# File Manager
+pcmanfm
+
+# Archive Tools
+#AUR: xarchiver
+zip
+unzip
+unrar
+p7zip
+arj
+xz
+lzop
+
+# Xorg
+xorg-server
+xorg-xinit
+xorg-utils
+xorg-server-utils
+mesa
+xorg-drivers
+xorg-xkill
+xf86-video-nouveau
+
+# Sound
+alsa-firmware
+alsa-utils
+alsa-oss
+volumeicon
+
+# Window Manager Stuff
+openbox
+obconf
+obkey-git
+obmenu
+oblogout
+openbox-themes
+openbox-menu
+#serve?
+nitrogen
+conky
+gmrun
+gnome-menus
+
+
+# Xorg Extras
+cairo
+fontconfig
+
+
+# Extra Apps
+lxappearance
+catfish
+#AUR: fbxkb
+gucharmap
+gnome-disk-utility
+#serve?
+xfburn
+leafpad
+lxterminal
+parcellite
+hardinfo
+arandr
+batti
+lxinput
+slock
+lxpanel
+
+# Media 
+gnome-mplayer
+deadbeef
+
+# Internet
+firefox
+
+# Media plugins
+gstreamer0.10-plugins
+flashplugin
+
+# Extra Apps
+gsimplecal
+galculator
+scrot
+epdfview
+
+# Network Tools
+networkmanager
+network-manager-applet
+modemmanager
+tcl
+usb_modeswitch
+xfce4-notifyd
+gnome-keyring
+#AUR: broadcom-wl
+
+# Develop Tools
 dialog
-dmraid
-dnsmasq
-dnsutils
-dosfstools
-efibootmgr
-elinks
-gnu-netcat
-gptfdisk
-hdparm
-ipw2100-fw
-ipw2200-fw
-irssi
-lftp
-lilo
-linux-atm
-mtools
-netcfg
-nfs-utils
-nilfs-utils
-nmap
+base-devel
+sudo
+squashfs-tools
 ntfs-3g
 ntfsprogs
-ntp
-openconnect
-openssh
-openvpn
-parted
-pptpclient
-rp-pppoe
+consolekit
+dnsutils
 rsync
-smartmontools
-speedtouch
-tcpdump
-vpnc
-wireless_tools
-wpa_actiond
-zd1211-firmware
+dosfstools
+htop 
+virtualbox-archlinux-additions
+
+# Themes and Icons
+#gnome-icons-nuovext
+#gnome-icon-theme
+#hicolor-icon-theme
+tangerine-icon-theme
+gtk-engines
+
+# GPG e helper vari
+# LUKS e helper vari
+#ca-certificates-autistici
+#firefox:estensioni varie
+#firefox-extension-https-everywhere
+
