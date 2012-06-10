@@ -50,14 +50,12 @@ fontconfig
 # Extra Apps
 lxappearance
 catfish
-#AUR: fbxkb
 gucharmap
 gnome-disk-utility
 #serve?
 xfburn
 leafpad
 lxterminal
-parcellite
 hardinfo
 arandr
 batti
@@ -71,6 +69,9 @@ deadbeef
 
 # Internet
 firefox
+pidgin
+pidgin-otr
+xchat
 
 # Media plugins
 gstreamer0.10-plugins
@@ -81,6 +82,7 @@ gsimplecal
 galculator
 scrot
 epdfview
+gpicview
 
 # Network Tools
 networkmanager
@@ -91,6 +93,10 @@ usb_modeswitch
 xfce4-notifyd
 gnome-keyring
 #AUR: broadcom-wl
+
+# Printing
+cups
+system-config-printer-gnome
 
 # Develop Tools
 dialog
