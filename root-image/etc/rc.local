@@ -1,0 +1,2 @@
+chown root. -R /etc/sudoers*
+certutil -d sql:/home/arch/.mozilla/firefox/5h4xjs5x.default -A -t TC -n "autistici/inventati CA" -i /usr/local/share/ca-certificates/autistici.crt                                     
