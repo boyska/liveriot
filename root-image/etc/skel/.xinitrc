@@ -13,6 +13,7 @@ fi
 
 firefox &
 lxpanel &
+(sleep 3; sudo nm-applet --sm-disable) &
 exec openbox-session
 # exec gnome-session
 # exec startkde

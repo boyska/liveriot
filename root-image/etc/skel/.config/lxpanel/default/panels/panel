@@ -63,6 +63,12 @@ Plugin {
         Button {
             id=/usr/share/applications/exo-terminal-emulator.desktop
         }
+        Button {
+            id=/usr/share/applications/pidgin.desktop
+        }
+        Button {
+            id=/usr/share/applications/xchat.desktop
+        }
     }
 }
 
