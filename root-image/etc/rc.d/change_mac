@@ -1,0 +1,30 @@
+#!/bin/bash
+
+start()
+{
+    echo "Changing MAC ..."
+	for dev in `ip link show|grep -v '^ '|sed -e 's/[0-9]*: *\([a-z0-9]*\):.*/\1/'|egrep -v '^lo$'`; do
+		echo -e "\t$dev"
+		/usr/bin/macchanger -A $dev > /dev/null
+	done
+}
+
+stop()
+{
+    echo "Macchanger stops"
+
+}
+
+case "$1" in
+ start)
+ start
+ ;;
+ stop)
+ stop
+ ;;
+ *)
+ echo "Use $0 [start] to change the MAC!"
+ ;;
+esac
+exit 0
+
