@@ -125,3 +125,8 @@ gtk-engines
 #firefox:estensioni varie
 #firefox-extension-https-everywhere
 
+# Hacking
+
+nmap
+# AUR: pyloris
+macchanger
