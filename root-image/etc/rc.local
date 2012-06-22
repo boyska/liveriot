@@ -1,2 +1,5 @@
 chown root. -R /etc/sudoers*
-certutil -d sql:/home/arch/.mozilla/firefox/5h4xjs5x.default -A -t TC -n "autistici/inventati CA" -i /usr/local/share/ca-certificates/autistici.crt                                     
+rm -f /etc/xdg/autostart/nm-applet.desktop # https://wiki.archlinux.org/index.php/NetworkManager#Openbox say so
+certutil -d "sql:/home/arch/.mozilla/firefox/5h4xjs5x.default" -A -t TC -n "autistici/inventati CA" -i "/usr/local/share/ca-certificates/autistici.crt"
+
+#vim: set filetype=bash:
